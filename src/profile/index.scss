@@ -47,7 +47,7 @@
 
 .profile-page {
   .edit-section-header {
-    @extend .h6;
+    font-size: $h6-mobile-font-size;
     display: block;
     font-weight: normal;
     letter-spacing: 0;

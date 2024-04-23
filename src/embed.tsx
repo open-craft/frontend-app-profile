@@ -8,7 +8,7 @@ import configureStore from './data/configureStore';
 
 import AppRoutes from './routes/AppRoutes';
 import Head from './head/Head';
-import './index.scss';
+import './embed.scss';
 
 export const ProfileApp = () => {
 

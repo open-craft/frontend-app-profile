@@ -1,0 +1,8 @@
+@import "@edx/brand/paragon/variables";
+// We need the Paragon variables and mixins, but we don't want any actual rules since those are provided by the shell.
+// TODO: there should be a public export for this that doesn't rely on these internal _private files.
+@import "@openedx/paragon/scss/core/_functions";
+@import "@openedx/paragon/scss/core/_variables";
+@import "~bootstrap/scss/mixins";
+
+@import './profile/index';
