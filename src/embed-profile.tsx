@@ -12,7 +12,7 @@ import './embed-profile.scss';
 
 export const ProfileApp = () => {
 
-  const { locale } = React.useContext(AppContext);
+  const { locale } = React.useContext(AppContext as React.Context<{locale: string}>);
 
   return (
     <IntlProvider locale={locale} messages={messages}>
