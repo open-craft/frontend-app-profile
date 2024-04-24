@@ -4,7 +4,7 @@
   "type": "module",
   "exports": {
     ".": "./src/index.tsx",
-    "./embed": "./src/embed.tsx"
+    "./embed": "./src/embed-profile.tsx"
   },
   "description": "User profile micro-frontend for Open edX",
   "author": "edX",
